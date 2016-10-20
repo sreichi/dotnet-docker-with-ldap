@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B2C7122A-7ED4-42CD-95B6-9EA6B3EB9899}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2C3D2D4-B6F8-4B50-B12B-B713A642BDBD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LDAP-Fix", "src\LDAP-Fix\LDAP-Fix.xproj", "{65CF5B6E-13CD-4238-BD16-1B4CDBC7AB04}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Novell.Directory.LDAP", "src\Novell.Directory.LDAP\Novell.Directory.LDAP.xproj", "{9B5D110C-40B9-4919-B205-6BD96443D0CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65CF5B6E-13CD-4238-BD16-1B4CDBC7AB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CF5B6E-13CD-4238-BD16-1B4CDBC7AB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CF5B6E-13CD-4238-BD16-1B4CDBC7AB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CF5B6E-13CD-4238-BD16-1B4CDBC7AB04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5D110C-40B9-4919-B205-6BD96443D0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5D110C-40B9-4919-B205-6BD96443D0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5D110C-40B9-4919-B205-6BD96443D0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5D110C-40B9-4919-B205-6BD96443D0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65CF5B6E-13CD-4238-BD16-1B4CDBC7AB04} = {B2C7122A-7ED4-42CD-95B6-9EA6B3EB9899}
+		{9B5D110C-40B9-4919-B205-6BD96443D0CB} = {B2C7122A-7ED4-42CD-95B6-9EA6B3EB9899}
+	EndGlobalSection
+EndGlobal
